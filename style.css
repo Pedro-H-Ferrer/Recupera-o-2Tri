@@ -1,0 +1,45 @@
+    body {
+        background-color: gray;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vb;
+    }
+
+    div{
+        background-color: wheat;
+        border-radius: 10px;
+        max-width: 400px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    header{
+        background-color: goldenrod;
+        color: white;
+    }
+
+    .contato {
+        margin: 20p 0;
+    }
+
+    .media-social {
+        margin: 20px 0;
+    }
+
+    a {
+        color: green;
+        text-decoration: none;
+        margin: 10px;
+    }
+
+    a:hover {
+        font-size: 17px;
+    }
+
+    @media(max-width:600px){
+        div{
+            padding: 3%;
+        }
+    }
